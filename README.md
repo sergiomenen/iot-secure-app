@@ -1,5 +1,3 @@
---- FILENAME: ENTREGA.md ---
-
 # 🧾 ENTREGA — IoT Secure App (Laboratorio Local)
 
 ## 📘 Resumen de la práctica
