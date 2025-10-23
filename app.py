@@ -1,7 +1,7 @@
 # App principal de Streamlit: panel de demostración local de UART/MQTT simulados, seguridad de firmware y bitácora tipo blockchain.
 import streamlit as st
 from core.uart_sim import UARTState, handle_cmd
-from core.mqtt_sim import MQTTClientSim, LocalBroker
+from core.mqtt_sim import BrokerMem, publish, subscribe, sniff, spoof, mitm_publish
 from core.fw_sim import FirmwareSecurity
 from core.chain_sim_py import ChainSim
 
